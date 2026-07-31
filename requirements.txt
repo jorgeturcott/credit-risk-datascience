@@ -1,0 +1,58 @@
+# ============================================================
+# Credit Risk Data Science Environment
+# Python 3.10+ recommended
+# ============================================================
+
+# Core Data Processing & Analysis
+pandas==2.2.0
+numpy==1.26.4
+
+# Machine Learning - Foundation
+scikit-learn==1.4.1
+
+# Gradient Boosting Ensemble Methods (critical for credit risk)
+xgboost==2.0.3
+lightgbm==4.0.0
+catboost==1.2.3
+
+# Model Interpretability & Explainability
+# SHAP is essential for regulatory compliance in credit risk
+shap==0.45.0
+lime==0.2.0
+eli5==0.13.0
+
+# Visualization
+matplotlib==3.8.3
+seaborn==0.13.1
+plotly==5.18.0
+
+# Jupyter & Interactive Computing
+jupyter==1.0.0
+jupyterlab==4.0.9
+ipython==8.19.0
+ipykernel==6.28.0
+
+# Statistical Analysis & Advanced Methods
+scipy==1.12.0
+statsmodels==0.14.0
+
+# Data Quality & Profiling
+pandas-profiling==3.7.0
+
+# Utility & Environment Management
+python-dotenv==1.0.0
+tqdm==4.66.1
+
+# Optional: Streamlit for Dashboard (Phase 4)
+streamlit==1.30.0
+streamlit-plotly-events==0.0.6
+
+# Optional: Database connectivity (for future data pipelines)
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+
+# Code Quality & Testing (development dependencies)
+pytest==7.4.3
+black==24.1.1
+pylint==3.0.3
+flake8==6.1.0

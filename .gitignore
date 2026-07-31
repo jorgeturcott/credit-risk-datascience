@@ -1,0 +1,77 @@
+# ============================================================
+# Python Data Science Project .gitignore
+# ============================================================
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.jupyter/
+*checkpoint.ipynb
+
+# Data files (large datasets - keep local, don't push)
+*/data/raw/
+*/data/processed/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+
+# Models (large binary files)
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.pt
+*.pth
+*.json
+
+# Logs & Outputs
+*.log
+logs/
+*.tmp
+temp/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables (security)
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Streamlit
+.streamlit/
